@@ -14,6 +14,8 @@ import 'package:speed_up_flutter/speed_up_flutter.dart';
 class HousingPhotoScreen extends GetView<NameDescriptionOfHousingController> {
   static const String routeName = '/housingPhotoScreen';
 
+  String? smth;
+
   @override
   Widget build(BuildContext context) {
     Get.lazyPut(() => NameDescriptionOfHousingController());
